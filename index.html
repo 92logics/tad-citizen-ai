@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>92 Logics prototype · TAD citizen engagement</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#thread">Skip to the assistant</a>
+  <div class="banner" role="note">
+    <strong>92 Logics prototype.</strong>
+    Scripted from the public Tarrant Appraisal District RFP. Not an official appraisal district system, not connected to any property account, and not a bid.
+  </div>
+
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">92</span>
+      <div>
+        <p class="eyebrow">92 Logics · Islamabad · scripted demo</p>
+        <h1>Citizen engagement desk</h1>
+      </div>
+    </div>
+    <p class="lede">A labeled sample of the citizen-facing assistant described in the Tarrant Appraisal District request for an AI Citizen Engagement Platform. Every reply is limited to that public RFP. If the RFP does not cover the question, the desk refuses it.</p>
+  </header>
+
+  <div class="shell">
+    <aside class="rail" aria-label="Scripted questions">
+      <p class="rail-label">Try a scripted question</p>
+      <div class="chips" id="chips"></div>
+      <p class="fine">Nothing is sent. Matching runs in this browser. There is no model and no account lookup.</p>
+    </aside>
+
+    <main id="main">
+      <section aria-label="Scripted assistant">
+        <div class="thread" id="thread" aria-live="polite"></div>
+        <form id="composer" class="composer">
+          <label class="sr" for="ask">Ask the prototype</label>
+          <textarea id="ask" rows="2" placeholder="Ask what the RFP covers, or try a property question it should refuse."></textarea>
+          <button type="submit">Answer from the RFP</button>
+        </form>
+        <p class="fine composer-note">Offline. No API key. Answers are a fixed script, not a live appraisal.</p>
+      </section>
+    </main>
+
+    <aside class="facts" aria-label="Facts taken from the RFP">
+      <h2>From the public RFP</h2>
+      <p>These lines are copied from the solicitation used to script this demo. They are not a live district dashboard.</p>
+      <dl>
+        <div><dt>Buyer</dt><dd>Tarrant Appraisal District</dd></div>
+        <div><dt>Notice</dt><dd><a href="https://www.tad.org/content/rfp/TAD_AI_Citizen_Engagement.pdf">TAD_AI_Citizen_Engagement.pdf</a></dd></div>
+        <div><dt>Solicitation contact</dt><dd>Greg Garza · ggarza@tad.org</dd></div>
+        <div><dt>Written questions</dt><dd>Monday, October 5, 2026, 5:00 p.m. Central Time</dd></div>
+        <div><dt>Proposals due</dt><dd>Wednesday, October 21, 2026, before 10:00 a.m. Central Time</dd></div>
+        <div><dt>Deliver to</dt><dd>2500 Handley-Ederville Road, Fort Worth, Texas 76118</dd></div>
+        <div><dt>How to submit</dt><dd>One signed hard copy and one searchable copy on USB. Email and fax are not accepted unless an addendum says so.</dd></div>
+        <div><dt>Term in the RFP</dt><dd>One year, with four optional renewals</dd></div>
+      </dl>
+      <p class="fine">The RFP’s own AI-assistance note says generative tools helped draft it and that District staff approved the final text. This demo does not include addenda.</p>
+    </aside>
+  </div>
+
+  <footer class="foot">
+    Prototype by 92 Logics · cowork@92logics.com · not an official appraisal district system.
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
